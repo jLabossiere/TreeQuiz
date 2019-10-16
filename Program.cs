@@ -56,7 +56,7 @@ namespace TreeQuiz
 
             bool isCalc;
 
-            if(SumLeft == 0 && SumRight == 0)
+            if(node.LNode == null && node.RNode == null)
             {
                 isCalc = true;
             } else
